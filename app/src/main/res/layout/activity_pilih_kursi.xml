@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pilih_kursi"
+    android:orientation="vertical"
+    tools:context=".PilihKursiActivity">
+
+    <ImageView
+        android:id="@+id/backPilihKursi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:padding="5dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:rowCount="5"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:alignmentMode="alignBounds"
+        android:useDefaultMargins="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <CheckBox
+                android:id="@+id/kursiA1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="A1"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiA2"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="A2"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiA3"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="A3"
+                android:layout_marginEnd="50dp"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiA4"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="A4"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiA5"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="A5"
+                android:textColor="#808080"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <CheckBox
+                android:id="@+id/kursiB1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="B1"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiB2"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="B2"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiB3"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="B3"
+                android:layout_marginEnd="50dp"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiB4"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="B4"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiB5"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="B5"
+                android:textColor="#808080"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <CheckBox
+                android:id="@+id/kursiC1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="C1"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiC2"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="C2"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiC3"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="C3"
+                android:layout_marginEnd="50dp"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiC4"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="C4"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiC5"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="C5"
+                android:textColor="#808080"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/kursiD1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="D1"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiD2"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="D2"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiD3"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="D3"
+                android:layout_marginEnd="50dp"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiD4"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="D4"
+                android:textColor="#808080"/>
+
+            <CheckBox
+                android:id="@+id/kursiD5"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="D5"
+                android:textColor="#808080"/>
+        </LinearLayout>
+
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/btnProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/group_297"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="97dp"
+        android:layout_marginStart="58dp">
+
+        <TextView
+            android:id="@+id/tvJam"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginStart="65dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="30dp">
+
+        <TextView
+            android:id="@+id/tvBanyakKursi"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:textColor="#ABAAAA"/>
+
+        <TextView
+            android:id="@+id/tvDaftarKursi"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="30dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:textColor="#ABAAAA"/>
+
+        <TextView
+            android:id="@+id/tvTotalPembayaran"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

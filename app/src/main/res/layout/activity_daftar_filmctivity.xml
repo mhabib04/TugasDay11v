@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/daftar_film"
+    tools:context=".DaftarFilmctivity">
+
+    <ImageView
+        android:id="@+id/backDaftarFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:padding="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="92dp"
+        android:layout_marginStart="10dp">
+
+        <ImageView
+            android:id="@+id/imgDaftarFilm"
+            android:layout_width="145dp"
+            android:layout_height="147dp"
+            android:src="@drawable/rectangle_324"/>
+
+        <ImageView
+            android:id="@+id/btnBeliTiketDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/rectangle_325"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
